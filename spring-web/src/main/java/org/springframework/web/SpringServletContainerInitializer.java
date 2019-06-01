@@ -34,6 +34,8 @@ import org.springframework.util.ReflectionUtils;
  * Servlet 3.0 {@link ServletContainerInitializer}旨在使用Spring的{@link WebApplicationInitializer} SPI
  * 支持基于代码的servlet容器配置，而不是（或可能与之相结合）传统的基于web.xml的方法。
  *
+ * 运作机制
+ *
  * Servlet 3.0 {@link ServletContainerInitializer} designed to support code-based
  * configuration of the servlet container using Spring's {@link WebApplicationInitializer}
  * SPI as opposed to (or possibly in combination with) the traditional
